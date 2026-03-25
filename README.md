@@ -43,17 +43,11 @@ Top-level directories and important files:
 - `images/` — place diagrams or assets here (optional)
 
 ## Architecture diagram
-If you have a Mermaid-generated SVG diagram, put it under `images/` and reference it from this README. Example filename used by this repo:
 
 ```
 images/mermaid-diagram-2026-03-22-183858.svg
 ```
 
-You can copy the file into the project with a command like:
-
-```bash
-cp /home/juve/Downloads/mermaid-diagram-2026-03-22-183858.svg images/
-```
 
 ## Developer notes & suggestions
 - Repositories in `src/repository` are simple in-memory lists. They must initialize their internal lists (done in current code) and return copies from `findAll()` to avoid exposing internal state.
@@ -74,9 +68,3 @@ cp /home/juve/Downloads/mermaid-diagram-2026-03-22-183858.svg images/
 This repository is a learning exercise. Replace or add a license file if you intend to reuse the code.
 
 ---
-
-If you want, I can also:
-- add a small CONTRIBUTING.md and CODE_OF_CONDUCT
-- add a tiny shell script `run.sh` to build+run in one step
-- convert the Mermaid source into an embedded HTML viewer
-Pick one and I'll add it.
